@@ -1,0 +1,48 @@
+  body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-image: url('gallery-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .header h1 {
+            font-size: 4rem;
+            margin: 0;
+        }
+        .header p {
+            font-size: 1.5rem;
+            margin: 10px 0 20px;
+        }
+        .btn {
+            padding: 15px 30px;
+            font-size: 1rem;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            position: relative;
+        }
+        .footer p {
+            margin: 0;
+        }

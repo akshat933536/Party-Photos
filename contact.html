@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eaeaee;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #e0d2d2;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(46, 44, 44, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            color: #f38925;
+        }
+        form {
+            display: flex;
+            color: #4c4c92;;
+            flex-direction: column;
+        }
+        label {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        input, textarea {
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        textarea {
+            resize: vertical;
+            height: 100px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #4cae4c;
+        }
+        .links {
+            margin-top: 30px;
+            color: #4c4c92;;
+            text-align: center;
+        }
+        .links a {
+            display: inline-block;
+            margin: 0 10px;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div class="links">
+            <p>Follow us or find us here:</p>
+            <a href="https://www.instagram.com/rr_computers_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a>
+            <a href="https://maps.app.goo.gl/n6BcEWQg7oj8hsi36" target="_blank">Google Maps</a>
+        </div>
+         <!-- Embedded Google Map -->
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2812.182471043054!2d80.91308207422078!3d26.90087356060146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399957a4da1f63cd%3A0x19b30a662ce3952!2sR.R.%20COMPUTER%20INSTITUTE!5e1!3m2!1sen!2sau!4v1737739591065!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" 
+        <div class="footer">
+            <p>&copy; 2025 Contact Web Page. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html
